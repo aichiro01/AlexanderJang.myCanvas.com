@@ -22,8 +22,9 @@
 </head>
 <body>
 
-<div class="jumbotron">
-	<h1>AIJ Portfolio</h1>
+<div class="jumbotron jumbotron-fluid">
+	<div class="container">
+	<h1>Alexander Jang</h1>
 	
 	
 	
