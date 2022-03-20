@@ -22,7 +22,7 @@ body{
   min-width: 50px;
   overflow: hidden;
   white-space: nowrap;
-  font-family: sans-serif;
+  font-family: monospace;
   font-size: 13px;
   color: #ffffff;
   text-decoration: none;
@@ -37,7 +37,8 @@ body{
 }
 
 .navbar-brand{
-
+  font-size: 20px;
+  font-family: monospace;
 }
 
 
@@ -66,13 +67,28 @@ body{
   min-width: 50px;
   overflow: hidden;
   white-space: nowrap;
-  font-family: sans-serif;
+  font-family: monospace;
   font-size: 20px;
-  color: #343a40;
+  color: #ffffff;
   text-decoration: none;
   webkit-tap-highlight-color: transparent;
   transition: background-color .1s ease-in-out;
+}
 
+h1{
+  font-size: 50px;
+  font-family: monospace;
+  color:#ffffff;
+}
 
+img{
+  max-width: 100%;
+}
 
+.image{
+  flex-basis: 40%;
+}
+
+body {
+  background-image: url("");
 }
