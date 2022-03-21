@@ -38,8 +38,7 @@ body{
 }
 
 .navbar-brand{
-  position: relative;
-  font-size: 0px;
+  position:;
   font-family: monospace;
   overflow: auto;
 }
@@ -156,12 +155,5 @@ img{
 }
 
 body{
-  width: auto;
-  overflow-y: hidden;
-}
-@media only screen and (max-height: 600px) {
-  body {
-    overflow-y:hidden;
-
-  }
+  width: 100%;
 }
