@@ -1,5 +1,6 @@
 body{
   margin:0 0 55px 0;
+
 }
 .nav{
   position:fixed;
@@ -38,7 +39,7 @@ body{
 
 .navbar-brand{
   position: relative;
-  font-size: 1px;
+  font-size: 0px;
   font-family: monospace;
 }
 
@@ -80,6 +81,7 @@ h1{
   font-size: 50px;
   font-family: monospace;
   color:#ffffff;
+  background-color: #000000;
 }
 
 img{
@@ -124,4 +126,32 @@ p{
   border-style: solid;
   border-color: white;
   border-width: 4px;
+}
+
+img{
+  width: 100%;
+
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
