@@ -37,6 +37,7 @@ body{
 }
 
 .navbar-brand{
+  position: relative;
   font-size: 5px;
   font-family: monospace;
 }
