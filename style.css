@@ -92,3 +92,35 @@ img{
 body {
   background-image: url("");
 }
+
+.container_mail{
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+
+
+
+}
+
+p{
+  font-size: 15pt;
+  font-family: monospace;
+  color: #ffffff;
+}
+
+.container_bio{
+  border-style: solid;
+  border-color: white;
+  border-width: 4px;
+}
+.container_statment{
+  border-style: solid;
+  border-color: white;
+  border-width: 4px;
+}
+.container_share{
+  position:static;
+  border-style: solid;
+  border-color: white;
+  border-width: 4px;
+}
