@@ -155,10 +155,11 @@ img{
 }
 
 
-
-
-
-
-@media only screen and (max-width: 600px){
-
+@media only screen and (max-width: 450px){
+    body {
+      background-image: url("loop.gif");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size:cover;
+    }
 }
