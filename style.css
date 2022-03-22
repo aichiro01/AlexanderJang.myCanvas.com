@@ -155,7 +155,8 @@ img{
 }
 
 .container_share{
-overflow:auto;
+  overflow:auto;
+  position: relative;
 
 }
 
