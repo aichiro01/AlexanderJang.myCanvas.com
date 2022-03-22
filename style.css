@@ -154,6 +154,11 @@ img{
   clear: both;
 }
 
+.container_share{
+overflow:auto;
+
+}
+
 
 @media only screen and (max-width: 600px){
 
